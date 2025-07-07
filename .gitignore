@@ -5,3 +5,4 @@ __pycache__/
 reports/
 test-reports/
 allure-results/
+allure-report/
