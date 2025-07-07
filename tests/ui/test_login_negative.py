@@ -3,7 +3,7 @@ from pages.login_page import LoginPage
 import allure
 
 
-def test_example_1(login_page, page) -> None:
+def test_locked_out_user(login_page, page) -> None:
     login_page.navigate()
     login_page.expect_login_credentials_visible()
 
@@ -12,11 +12,11 @@ def test_example_1(login_page, page) -> None:
     login_page.click_login_button()
 
     login_page.expect_error_message("Epic sadface: Sorry, this user has been locked out.")
-    attach_screenshot(page, "Screenshot test_exampe_1")
+    attach_screenshot(page, "Screenshot test_locked_out_user")
 
 
 
-def test_example_2(page: Page, login_page_with_login) -> None:
+def test_user_name_or_password_is_incorrect(page: Page, login_page_with_login) -> None:
 
     expect(page.locator("[data-test=\"login-credentials\"]")).to_be_visible()
 
@@ -24,7 +24,7 @@ def test_example_2(page: Page, login_page_with_login) -> None:
     page.locator("[data-test=\"password\"]").fill("secret_sauce")
     page.locator("[data-test=\"login-button\"]").click()
     expect(page.locator("[data-test=\"error\"]")).to_contain_text("Epic sadface: Username and password do not match any user in this service")
-    attach_screenshot(page, "Screenshot test_exampe_2")
+    attach_screenshot(page, "Screenshot test_user_name_or_password_is_incorrect")
 
 
 def attach_screenshot(page, name):
