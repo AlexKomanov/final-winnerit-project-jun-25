@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","11067","test_example[chromium]","tests.ui","Mon Jul 07 17:31:15 GMT 2025","passed","Mon Jul 07 17:31:26 GMT 2025","","test_e2e_buy_items","",""
+"","3865","test_example_1[chromium]","tests.ui","Mon Jul 07 17:31:27 GMT 2025","passed","Mon Jul 07 17:31:30 GMT 2025","","test_login_negative","",""
+"","2185","test_example_2[chromium]","tests.ui","Mon Jul 07 17:31:31 GMT 2025","passed","Mon Jul 07 17:31:34 GMT 2025","","test_login_negative","",""
