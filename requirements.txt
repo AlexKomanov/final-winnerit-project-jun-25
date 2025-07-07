@@ -16,8 +16,10 @@ pyee==13.0.0
 Pygments==2.19.2
 pytest==8.4.1
 pytest-base-url==2.1.0
+pytest-check==2.5.3
 pytest-playwright==0.7.0
 python-dateutil==2.9.0.post0
+python-dotenv==1.1.1
 python-slugify==8.0.4
 requests==2.32.4
 six==1.17.0
