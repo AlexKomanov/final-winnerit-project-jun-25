@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","47","test_get_user_with_generator","tests.api","Mon Jul 07 19:19:46 GMT 2025","passed","Mon Jul 07 19:19:46 GMT 2025","","test_get_user","",""
+"","52","test_get_user","tests.api","Mon Jul 07 19:19:46 GMT 2025","passed","Mon Jul 07 19:19:46 GMT 2025","","test_get_user","",""
+"","3919","test_locked_out_user[chromium]","tests.ui","Mon Jul 07 19:19:58 GMT 2025","passed","Mon Jul 07 19:20:02 GMT 2025","","test_login_negative","",""
+"","2269","test_user_name_or_password_is_incorrect[chromium]","tests.ui","Mon Jul 07 19:20:03 GMT 2025","passed","Mon Jul 07 19:20:05 GMT 2025","","test_login_negative","",""
+"","192","test_login_user","tests.api","Mon Jul 07 19:19:46 GMT 2025","failed","Mon Jul 07 19:19:46 GMT 2025","","test_login_user","",""
+"","10491","test_example[chromium]","tests.ui","Mon Jul 07 19:19:47 GMT 2025","passed","Mon Jul 07 19:19:58 GMT 2025","","test_e2e_buy_items","",""
